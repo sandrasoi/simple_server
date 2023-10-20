@@ -3,7 +3,7 @@
 # Dockerfiles typically start with a 'base image'. There are loads of these
 # and you can find them at hub.docker.com.
 # We're going to use a base image for Python veresion 3.11
-FROM python:3.11
+FROM python:3.11.0
 
 # This base image contains essentially everything necessary for a 'virtual
 # computer'. It has a terminal, certain basic commands, and of course Python.
